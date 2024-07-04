@@ -1,0 +1,100 @@
+.rp1 {
+    min-height: 40vw;
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 60px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+/* .rp1 h3{
+    padding: 30px;
+} */
+
+.rp0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.rp0 hr {
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.rp0 button {
+    font-size: 24px;
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px;
+    line-height: 0;
+    border: 1px solid gray;
+}
+
+@media only screen and (max-width: 600px) {
+    .rp1 {
+        min-height: 40vw;
+        width: 95vw;
+        margin: auto;
+        margin-bottom: 60px;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+
+    .rp0 {
+        padding: 20px;
+    }
+
+    .rp0 hr {
+        width: 100%;
+        border: 2px solid black;
+        margin-top: 10px;
+    }
+
+    .rp0 button {
+        font-size: 24px;
+        height: 30px;
+        width: 40px;
+        border-radius: 5px;
+        text-align: center;
+        padding: 0px;
+        line-height: 0;
+        border: 1px solid gray;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .rp1 {
+        min-height: 40vw;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 60px;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+
+    .rp0 {
+        padding: 20px;
+    }
+
+    .rp0 hr {
+        width: 100%;
+        border: 2px solid black;
+        margin-top: 10px;
+    }
+
+    .rp0 button {
+        font-size: 24px;
+        height: 30px;
+        width: 40px;
+        border-radius: 5px;
+        text-align: center;
+        padding: 0px;
+        line-height: 0;
+        border: 1px solid gray;
+    }}

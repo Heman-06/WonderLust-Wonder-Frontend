@@ -1,0 +1,20 @@
+.up1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .up1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .up1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

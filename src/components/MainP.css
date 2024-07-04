@@ -1,0 +1,252 @@
+.mp1 {
+    width: 50vw;
+    height: auto;
+    /* background-color: yellow; */
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.mp2 {
+    /* background-color: yellowgreen; */
+    padding: 10px 20px;
+    height: 50px;
+    width: 100%;
+}
+
+.mp2 button {
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    border: none;
+}
+
+.mp3 {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    /* background-color: aqua; */
+    height: 20%;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+    width: 50vw;
+}
+
+.mp31 {
+    height: 200px;
+    width: 12vw;
+    border: 1px solid gray;
+}
+
+.mp31 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.mp32 {
+    height: 200px;
+    width: 35vw;
+    border: 1px solid gray;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.mp32 p {
+    line-height: 25px;
+    margin: 0;
+}
+
+.mp321 {
+    /* background-color: blueviolet; */
+    height: 130px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.mp322 {
+    height: 90px;
+    width: 150px;
+    border: 1px solid black;
+    padding: 13px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mp1 {
+        width: 95vw !important;
+        height: auto;
+        margin: auto;
+        padding: 40px 0px;
+        margin-top: 30px;
+    }
+
+    .mp2 {
+        /* background-color: yellowgreen; */
+        padding: 10px 20px;
+        height: 50px;
+        width: 100%;
+    }
+
+    .mp2 button {
+        height: 30px;
+        width: 90px;
+        font-size: 15px;
+        border: none;
+    }
+
+    .mp3 {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        /* background-color: aqua; */
+        height: 20%;
+        align-items: center;
+        padding: 0px 0px;
+        gap: 5px;
+        width: 95vw !important;
+    }
+
+    .mp31 {
+        height: 200px;
+        width: 20vw;
+        border: 1px solid gray;
+    }
+
+    .mp31 img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .mp32 {
+        height: 200px;
+        width: 73vw;
+        border: 1px solid gray;
+        padding: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .mp32 p {
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .mp321 {
+        /* background-color: blueviolet; */
+        height: auto;
+        width: 67vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        padding: 20px 5px;
+        margin: 0;
+    }
+
+    .mp321 h5 {
+        font-size: 17px;
+    }
+
+    .mp322 {
+        height: 100px;
+        width: 170px !important;
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .mp1 {
+        width: 90vw !important;
+        height: auto;
+        margin: auto;
+        padding: 40px 0px;
+        margin-top: 30px;
+    }
+
+    .mp2 {
+        /* background-color: yellowgreen; */
+        padding: 10px 20px;
+        height: 50px;
+        width: 100%;
+    }
+
+    .mp2 button {
+        height: 30px;
+        width: 90px;
+        font-size: 15px;
+        border: none;
+    }
+
+    .mp3 {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        /* background-color: aqua; */
+        height: 20%;
+        align-items: center;
+        padding: 0px 0px;
+        gap: 5px;
+    }
+
+    .mp31 {
+        height: 200px;
+        width: 20vw;
+        border: 1px solid gray;
+    }
+
+    .mp31 img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .mp32 {
+        height: 200px;
+        width: 70vw;
+        border: 1px solid gray;
+        padding: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .mp32 p {
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .mp321 {
+        /* background-color: blueviolet; */
+        height: auto;
+        width: 67vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        padding: 20px 5px;
+        margin: 0;
+    }
+
+    .mp321 h5 {
+        font-size: 25px;
+    }
+
+    .mp322 {
+        height: 100px;
+        width: 170px !important;
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+}

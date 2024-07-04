@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    /* Change to the desired color */
+    text-decoration: none;
+    /* Optionally remove underline */
+}
+
+* {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,54 @@
+.cr2 {
+    height: 85vh;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.cr2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cr2 {
+        height: 40vh;
+        width: 100vw;
+        margin-top: 150px;
+    }
+    .cr2 h3{
+        font-size: 22px;
+        color: white;
+
+    }
+    .cr2 h1{
+        font-size: 25px;
+    }
+
+    .cr2 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .cr2 {
+        height: 50vh;
+        width: 100vw;
+        margin-top: 150px;
+    }
+    .cr2 h3{
+        font-size: 32px;
+        color: white;
+
+    }
+    .cr2 h1{
+        font-size: 45px;
+    }
+    .cr2 img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }}

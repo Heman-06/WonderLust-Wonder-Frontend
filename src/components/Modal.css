@@ -1,0 +1,20 @@
+.modal1 input {
+    height: 45px;
+    padding: 10px;
+    outline: none;
+}
+
+.modal1 textarea {
+    min-height: 330px;
+    padding: 5px;
+    outline: none;
+}
+
+.modal1 select {
+    height: 40px;
+}
+
+.modal1 {
+    height: auto;
+}
+

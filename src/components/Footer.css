@@ -1,0 +1,225 @@
+.ftr1 {
+    min-height: 25vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding:0px 150px;
+    background-color: rgba(128, 128, 128, 0.263);
+}
+
+.about {
+    padding: 50px 10px;
+}
+
+.ql {
+    padding: 50px 80px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.ql ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ql li {
+    margin: 10px 0px;
+}
+
+.wn{
+    width: 120%;
+    padding: 50px 14px;
+}
+.wn h5{
+    text-align: center;
+    font-size: 19px;
+    line-height: 20px;
+}
+.wn p{
+    font-size: 15px;
+    color: gray;
+
+}
+
+.wn input{
+    width: 100%;
+    outline: none;
+    height: 36px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.wn button{
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    border: none;
+    background-color: rgba(51, 51, 230, 0.897);
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+.wn1 {
+    padding: 30px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+    .ftr1 {
+        min-height: 25vw;
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: center;
+        align-items: center;
+        padding:0px 0px;
+        background-color: rgba(128, 128, 128, 0.263);
+        margin: auto;
+        text-align: center;
+    }
+    
+    .about {
+        padding: 50px 10px;
+    }
+    
+    .ql {
+        padding: 20px 20px;
+        list-style-type: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .ql ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .ql li {
+        margin: 10px 0px;
+    }
+    
+    .wn{
+        width: 100%;
+        padding: 50px 14px;
+    }
+    .wn h5{
+        text-align: center;
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .wn p{
+        font-size: 15px;
+        color: gray;
+    
+    }
+    
+    .wn input{
+        width: 100%;
+        outline: none;
+        height: 36px;
+        border-radius: 7px;
+        border: 1px solid gray;
+        padding: 10px;
+    }
+    
+    .wn button{
+        width: 100%;
+        margin-top: 10px;
+        height: 35px;
+        border: none;
+        background-color: rgba(51, 51, 230, 0.897);
+        color: white;
+        font-weight: 600;
+        border-radius: 7px;
+    }
+    
+    .wn1 {
+        padding: 20px;
+        height: auto;
+        width: 70vw;
+        margin: auto;
+        background-color: white;
+        border-radius: 7px;
+    }
+      }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .ftr1 {
+        min-height: 25vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding:0px 0px;
+        background-color: rgba(128, 128, 128, 0.263);
+        margin: auto;
+        text-align: center;
+    }
+    
+    .about {
+        padding: 50px 30px;
+    }
+    
+    .ql {
+        padding: 20px 20px;
+        list-style-type: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .ql ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .ql li {
+        margin: 10px 0px;
+    }
+    
+    .wn{
+        width: 80%;
+        padding: 50px 14px;
+    }
+    .wn h5{
+        text-align: center;
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .wn p{
+        font-size: 15px;
+        color: gray;
+    
+    }
+    
+    .wn input{
+        width: 80%;
+        outline: none;
+        height: 36px;
+        border-radius: 7px;
+        border: 1px solid gray;
+        padding: 10px;
+    }
+    
+    .wn button{
+        width: 80%;
+        margin-top: 10px;
+        height: 35px;
+        border: none;
+        background-color: rgba(51, 51, 230, 0.897);
+        color: white;
+        font-weight: 600;
+        border-radius: 7px;
+    }
+    
+    .wn1 {
+        padding: 20px;
+        height: auto;
+        width: 50vw;
+        margin: auto;
+        background-color: white;
+        border-radius: 7px;
+    }
+     }

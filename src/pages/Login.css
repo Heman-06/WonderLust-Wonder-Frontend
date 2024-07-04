@@ -1,0 +1,58 @@
+.lgn1 {
+    width: 98.9vw;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/technology-communication-icons-symbols-concept_53876-120314.jpg?w=900&t=st=1714111920~exp=1714112520~hmac=cd3e8d684e1cc9748b869233cf9f7b89370be320a09cabfc03c416b7d632547c");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+
+.lgn2 {
+    width: 24vw;
+    min-height: 25vw;
+    margin: auto;
+    background-color: rgba(29, 114, 150, 0.861);
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    padding: 50px 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.lgn2 input {
+    width: 290px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.lgn2 button {
+    width: 105px;
+    height: 35px;
+    border: none;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.lgn3 {
+    display: flex;
+    gap: 40px;
+}
+
+.overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}

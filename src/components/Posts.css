@@ -1,0 +1,162 @@
+.pst1 {
+    min-height: 100vh;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 80px;
+    margin: auto;
+}
+
+
+.pst0 {
+    margin: 60px auto;
+    width: 70vw;
+    padding: 10px;
+    text-align: left !important;
+}
+
+.pst00 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.h4 {
+    /* padding-left: 73px; */
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.hr {
+    border: 2px solid black;
+}
+
+.pst2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    gap: 25px;
+}
+
+.pst1 button {
+    padding: 12px;
+    border: none;
+    font-size: 13px;
+    color: rgb(98, 93, 93);
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pst1 {
+        min-height: 100vh;
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 20px 10px;
+        margin: auto;
+    }
+
+
+    .pst0 {
+        margin: 0px auto;
+        width: 100vw;
+        padding: 10px;
+        text-align: left !important;
+    }
+
+    .pst00 {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-top: 50px;
+    }
+
+    .h4 {
+        /* padding-left: 73px; */
+        font-size: 25px;
+        line-height: 10px;
+    }
+
+    .hr {
+        border: 2px solid black;
+    }
+
+    .pst2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+        gap: 0px;
+    }
+
+    .pst1 button {
+        padding: 12px;
+        border: none;
+        font-size: 13px;
+        color: rgb(98, 93, 93);
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .pst1 {
+        min-height: 100vh;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 10px 0px;
+        margin: auto;
+    }
+
+
+    .pst0 {
+        margin: 0px auto;
+        width: 100vw;
+        padding: 10px;
+        text-align: left !important;
+    }
+
+    .pst00 {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-top: 50px;
+    }
+
+    .h4 {
+        /* padding-left: 73px; */
+        font-size: 25px;
+        line-height: 10px;
+    }
+
+    .hr {
+        border: 2px solid black;
+    }
+
+    .pst2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+        gap: 10px;
+    }
+
+    .pst1 button {
+        padding: 12px;
+        border: none;
+        font-size: 13px;
+        color: rgb(98, 93, 93);
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+}
